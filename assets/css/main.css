@@ -1,0 +1,373 @@
+/* Hero Section Style */
+.navbar-logo{
+  max-width: 200px;
+  padding-left: 20px;
+}
+
+#about-page-hero .hero-section
+{
+  background-image: url('../../assets/images/pool.jpg') !important;
+
+}
+.hero-section {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url('../../assets/images/hero-bg.jpg');
+    background-attachment: fixed;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-content a {
+    font-size: 1.25rem;
+  }
+  
+
+  /* Services section style */
+  
+  #services {
+    background-color: #000000;
+    padding: 50px 0;
+  }
+  
+  #services .card {
+    border: none;
+    background-color: #1d1d1d;
+}
+
+#services .card-body {
+
+  min-height: 435px;
+}
+
+
+
+#services .text-red {
+  color: #c82333;
+}
+
+#services .card-text {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+  #services h2 {
+    color: #c82324;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #C62828;
+    border-color: #C62828;
+  }
+  
+  .btn-primary:hover {
+    background-color: #8E0000;
+    border-color: #8E0000;
+  }
+  
+
+
+  
+  /* Footer CSS */
+  footer {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    text-decoration: none;
+  }
+  
+  footer p {
+    margin-top: 10px;
+  }
+  
+  
+  /* Partners section css */
+  .client-section-style
+  {
+    padding: 80px 0px;
+  }
+  .partner-logo {
+    margin-bottom: 30px;
+  }
+  
+  .partner-logo img {
+    width: 150px;
+    margin-bottom: 50px;
+  }
+  
+  .section-title {
+    margin-bottom: 80px;
+    text-align: center;
+    color: #932020;
+  }
+  
+  @media (max-width: 767px) {
+    .partner-logo {
+      text-align: center;
+    }
+  }
+  
+
+  /* Portfolio section css */
+  #portfolio .card {
+    border: none;
+    background-color: #1d1d1d;
+  }
+  
+  #portfolio .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  #portfolio .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  #portfolio .card-text {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  #portfolio .btn-red {
+    background-color: #c82333;
+    border-color: #c82333;
+  }
+  
+  #portfolio .btn-red:hover {
+    background-color: #9c1c26;
+    border-color: #9c1c26;
+  }
+  
+  #portfolio .text-red {
+    color: #c82333;
+  }
+  
+  .btn-red {
+    background-color: #C3272B;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+
+  /* About section css*/
+
+  
+  .about-section-title
+  {
+    color: #932020;
+  }
+  
+  #about-page-hero .hero-section
+  {
+    height:450px;
+  }
+
+
+  #about-page-vision {
+    background-color: #000000;
+    padding: 50px 0;
+  }
+
+  #about-page-vision p
+  {
+    color: white ;
+    margin-top: 25px;
+  }
+  
+  #about-page-vision h2
+  {
+    color: #af4848;
+  }
+
+  #about-page-clients
+  {
+    background-color: #e2e2e2!important;
+  }
+
+
+  /* Contact us page */
+  #contactus .targemHome-Getstarted {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    background: white;
+  }
+  #contactus .targemHome-Getstarted:hover
+  {
+    color: white;
+    background-color: #f53434;
+    /*background: -webkit-linear-gradient( 120deg, #415d87 0%, #4ec5ff 100%);*/
+    border:2px white solid; 
+  
+  }
+  
+  textarea.form-control{
+    min-height: 200px !important;
+  }
+  
+  .contactInfoPart
+  {
+    background-color: #f53434;
+    /*background:  -webkit-linear-gradient( 120deg, #8f0000 0%, #920303 100%);*/
+  
+  }
+  
+  .ContactUsTitle
+  {
+    font-size: 40px;
+    text-align: center;
+    /*padding-top: 30px;*/
+    font-weight: bold;
+  }
+  
+  .contactInfoPart p
+  {
+    text-align: left;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+  }
+  
+  #contactus form
+  {
+    padding: 20px;
+  }
+
+  #contactus
+  {
+    margin: 50px 0px;
+  }
+
+  /* portfolio page */
+  #portfolio-page-b2b-projects
+  {
+    margin-top: 140px;
+  }
+
+  #portfolio-page-b2b-projects .btn-red:hover
+  {
+    background: rgba(189, 43, 43, 0.9);
+    color: white;
+  }
+
+  #portfolio-page-b2c-projects
+  {
+    margin-top: 100px;
+  }
+
+  #portfolio-page-b2c-projects .text-red {
+    color: #c82333;
+}
+#portfolio-page-b2c-projects .btn-red:hover
+  {
+    background: rgba(189, 43, 43, 0.9);
+    color: white;
+  }
+
+#portfolio-page-b2c-projects .card {
+  border: none;
+  background-color: #1d1d1d;
+}
+
+#Contact-page-hero .hero-section
+{
+  height:450px !important;
+  background-image: url('../../assets/images/contactbg.jpg') !important;
+}
+
+#portfolio-page-hero .hero-section
+{
+  height:450px !important;
+  background-image: url('../../assets/images/pool.jpg') !important;
+}
+
+.project-page-hero .hero-section
+{
+  height:450px !important;
+  background-image: url('../../assets/images/pool.jpg') !important;
+}
+.landsacepe-btn
+{
+  margin-top: 24px;
+}
+
+.swimmingpool-btn
+{
+  margin-top: 72px;
+}
+
+
+.project-carousel img
+{
+  height: 400px;
+}
