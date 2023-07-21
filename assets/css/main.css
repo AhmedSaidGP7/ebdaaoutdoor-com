@@ -1,4 +1,8 @@
 /* Hero Section Style */
+.special-margin
+{
+  margin-top: 60px;
+}
 .navbar-logo{
   max-width: 200px;
   padding-left: 20px;
@@ -6,7 +10,7 @@
 
 #about-page-hero .hero-section
 {
-  background-image: url('../../assets/images/pool.jpg') !important;
+  background-image: url('../../assets/images/ourmission.jpg') !important;
 
 }
 .hero-section {
@@ -351,11 +355,90 @@
   background-image: url('../../assets/images/pool.jpg') !important;
 }
 
-.project-page-hero .hero-section
+
+/* Hero images for projects */
+/*
+/*
+/*
+/*
+/*
+
+/* Hero image for Rojana */
+.project-page-hero .Hero-img-rojana
+{
+  height:450px !important;
+  background-image: url('../../assets/images/about.jpg') !important;
+}
+
+/* Hero image for Porto */
+.project-page-hero .hero-img-porto
+{
+  height:450px !important;
+  background-image: url('../../assets/images/about.jpg') !important;
+}
+
+/* Hero image for alabbar */
+.project-page-hero .hero-img-alabbar
+{
+  height:450px !important;
+  background-image: url('../../assets/images/about.jpg') !important;
+}
+
+/* Hero image for Ghabbour */
+.project-page-hero .hero-img-ghabbour
 {
   height:450px !important;
   background-image: url('../../assets/images/pool.jpg') !important;
 }
+
+/* Hero image for Sheraton */
+.project-page-hero .hero-img-sheraton
+{
+  height:450px !important;
+  background-image: url('../../assets/images/pool.jpg') !important;
+}
+
+
+/*
+/*
+/*
+/*ُ End of hero imgs for projects */
+
+
+/* Hero images for services */
+/*
+/*
+/*
+/*
+/*
+
+/* Hero image for pools */
+
+.services-page-hero .Hero-img-pools
+{
+  height:450px !important;
+  background-image: url('../../assets/images/pool.jpg') !important;
+}
+
+/* Hero img for landescape */
+.services-page-hero .Hero-img-landescape
+{
+  height:450px !important;
+  background-image: url('../../assets/images/pool.jpg') !important;
+}
+
+/* Hero img for COC */
+.services-page-hero .Hero-img-COC
+{
+  height:450px !important;
+  background-image: url('../../assets/images/pool.jpg') !important;
+}
+
+/*
+/*
+/*
+/*ُ End of hero imgs for services */
+
 .landsacepe-btn
 {
   margin-top: 24px;
@@ -371,3 +454,6 @@
 {
   height: 400px;
 }
+
+
+/* Heros for each page */
