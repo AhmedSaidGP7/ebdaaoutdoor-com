@@ -10,7 +10,8 @@
 
 #about-page-hero .hero-section
 {
-  background-image: url('../../assets/images/ourmission.jpg') !important;
+  background-image: url('../../assets/images/vineto/6.jpeg') !important;
+  background-position: bottom !important;
 
 }
 .hero-section {
@@ -352,7 +353,7 @@
 #portfolio-page-hero .hero-section
 {
   height:450px !important;
-  background-image: url('../../assets/images/pool.jpg') !important;
+  background-image: url('../../assets/images/marasiii.jpg') !important;
 }
 
 
@@ -381,7 +382,29 @@
 .project-page-hero .hero-img-alabbar
 {
   height:450px !important;
-  background-image: url('../../assets/images/about.jpg') !important;
+  background-image: url('../../assets/images/alabaar/20220607_100940.jpg') !important;
+}
+
+/* Hero image for pyramisa */
+.project-page-hero .hero-img-pyramisa
+{
+  height:450px !important;
+  background-image: url('../../assets/images/pyramisa/cover2.jpg') !important;
+}
+
+/* Hero image for cocshowcase */
+.project-page-hero .hero-img-cocshowcase
+{
+  height:450px !important;
+  background-image: url('../../assets/images/coc/26.jpeg') !important;
+}
+
+/* Hero image for veneto */
+.project-page-hero .hero-img-veneto
+{
+  height:450px !important;
+  background-image: url('../../assets/images/vineto/cover.jpeg') !important;
+  background-position: bottom;
 }
 
 /* Hero image for Ghabbour */
@@ -424,14 +447,14 @@
 .services-page-hero .Hero-img-landescape
 {
   height:450px !important;
-  background-image: url('../../assets/images/pool.jpg') !important;
+  background-image: url('../../assets/images/pyramisa/face2.jpg') !important;
 }
 
 /* Hero img for COC */
 .services-page-hero .Hero-img-COC
 {
   height:450px !important;
-  background-image: url('../../assets/images/pool.jpg') !important;
+  background-image: url('../../assets/images/coc/26.jpeg') !important;
 }
 
 /*
