@@ -480,3 +480,14 @@
 
 
 /* Heros for each page */
+
+.index-hero-sec .carousel-inner
+{
+  max-height: 500px !important;
+  background-position: top;
+}
+
+/* .index-hero-sec .carousel-item
+{
+  filter: brightness(30%);
+} */
