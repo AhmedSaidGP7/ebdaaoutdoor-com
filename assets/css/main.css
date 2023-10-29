@@ -288,6 +288,12 @@
   
   }
   
+  .contactInfoPartforser
+  {
+    background-color: #000000;
+    /*background:  -webkit-linear-gradient( 120deg, #8f0000 0%, #920303 100%);*/
+  
+  }
   .ContactUsTitle
   {
     font-size: 40px;
@@ -491,3 +497,60 @@
 {
   filter: brightness(30%);
 } */
+
+
+
+/* Google recaptcha */
+#g-recaptcha-response {
+  display: block !important;
+  position: absolute;
+  margin: -50px 0 0 0 !important;
+  z-index: -999999;
+  opacity: 0;
+  }
+
+
+  /* Call to action */
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom: 100px;
+    left: 35px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:40px;
+    z-index:100;
+    transition: all 0.2s ease;
+  }
+  .float2{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom: 30px;
+    left: 35px;
+    background-color:#2590d3;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    transition: all 0.2s ease;
+  }
+  .float:hover ,  .float2:hover 
+  {
+    color: white;
+    width: 62px;
+    height: 62px;
+  }
+
+/*  .my-float{
+    margin-top:px;
+  } */
+  
+  .my-float2{
+    margin-top:15px;
+  }
+  
