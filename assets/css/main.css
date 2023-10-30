@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    background-image: url('../../assets/images/hero-bg.jpg');
+    background-image: url('../../assets/images/hero-bg.webp');
     background-attachment: fixed;
   }
   
@@ -353,13 +353,13 @@
 #Contact-page-hero .hero-section
 {
   height:450px !important;
-  background-image: url('../../assets/images/contactbg.jpg') !important;
+  background-image: url('../../assets/images/contactbg.webp') !important;
 }
 
 #portfolio-page-hero .hero-section
 {
   height:450px !important;
-  background-image: url('../../assets/images/marasiii.jpg') !important;
+  background-image: url('../../assets/images/marasiii.webp') !important;
 }
 
 
@@ -374,14 +374,14 @@
 .project-page-hero .Hero-img-rojana
 {
   height:450px !important;
-  background-image: url('../../assets/images/about.jpg') !important;
+  background-image: url('../../assets/images/about.webp') !important;
 }
 
 /* Hero image for Porto */
 .project-page-hero .hero-img-porto
 {
   height:450px !important;
-  background-image: url('../../assets/images/about.jpg') !important;
+  background-image: url('../../assets/images/about.webp') !important;
 }
 
 /* Hero image for alabbar */
@@ -417,14 +417,14 @@
 .project-page-hero .hero-img-ghabbour
 {
   height:450px !important;
-  background-image: url('../../assets/images/pool.jpg') !important;
+  background-image: url('../../assets/images/pool.webp') !important;
 }
 
 /* Hero image for Sheraton */
 .project-page-hero .hero-img-sheraton
 {
   height:450px !important;
-  background-image: url('../../assets/images/pool.jpg') !important;
+  background-image: url('../../assets/images/pool.webp') !important;
 }
 
 
@@ -446,7 +446,7 @@
 .services-page-hero .Hero-img-pools
 {
   height:450px !important;
-  background-image: url('../../assets/images/pool.jpg') !important;
+  background-image: url('../../assets/images/pool.webp') !important;
 }
 
 /* Hero img for landescape */
